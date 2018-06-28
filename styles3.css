@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.Container{
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+		
+}
+
+.banner{
+	width:auto;
+	background-color:#000000;
+	text-align:center;
+}
+
+.navbar{
+	text-align:center;
+	width:auto;
+	
+}
+.button{
+
+	background-color: #FFFFFF /*white*/;
+	border: invisible;
+	color: #000000 /*black*/;
+	padding: 30px 64px;
+	text-align: center;
+	display: inline-block;
+	margin:;
+	cursor: default;
+	font-size: 20px;
+	font-variant:normal;
+	font-weight:bolder;
+	font-family:"Franklin Gothic Bold", sans-serif;
+	text-decoration:none
+}
+.advert{
+	width:auto;
+	text-align:center;
+}
+
+.MainStories{
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+.firststory{
+	text-align:center;
+	font-family:"Franklin Gothic Bold", sans-serif;
+	font-weight:bolder;
+	font-size:72px;
+}
+	
+.FirstStory{
+	text-align:center;
+	font-family:"Franklin Gothic Bold", sans-serif;
+	font-weight:bold;
+	font-size:24px;
+}
+
+.centerstory{
+	text-align:left;
+	font-family:"Franklin Gothic Bold", sans-serif;
+	font-weight:bold
+}
+.RightAdvert{
+	float:left;
+	text-aling:center;
+	width:15%;
+}
+.CenterStories{
+	float:left;
+	width:60%
+}
+.LeftStories{
+	float:left;
+	width:25%;
+	margin-top:17px;
+	
+}
+.leftstory{
+	font-family:"Franklin Gothic Bold", sans-serif;
+	font-weight:bold;
+	font-size:18px;
+	margin-top:9x;
+}
+.breaking{
+	text-align:center;
+}
