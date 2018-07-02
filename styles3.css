@@ -11,6 +11,9 @@
 	width:auto;
 	background-color:#000000;
 	text-align:center;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -16px;
 }
 
 .navbar{
@@ -55,7 +58,7 @@
 	text-align:center;
 	font-family:"Franklin Gothic Bold", sans-serif;
 	font-weight:bold;
-	font-size:24px;
+	font-size:30px;
 }
 
 .centerstory{
@@ -65,25 +68,166 @@
 }
 .RightAdvert{
 	float:left;
-	text-aling:center;
-	width:15%;
+	width:8%;
 }
+.story{
+	float:left;
+	width:60%;
+	font-family: "Franklin Gothic Bold", sans-serif;
+	font-size:20px;
+	margin-left: 16%;
+
+
+}
+.fill{
+	float: left;
+	background-color: #ffffff;
+	width: 25%;
+}
+.media{
+	float:left;
+	text-align:right;
+	width:15%;
+	margin-top: 100px;
+	position: sticky;
+    top: 0;
+
+}
+
 .CenterStories{
 	float:left;
-	width:60%
+	width:52%
 }
 .LeftStories{
 	float:left;
-	width:25%;
-	margin-top:17px;
+	width:20%;
+	margin-left: 100px;
 	
 }
 .leftstory{
 	font-family:"Franklin Gothic Bold", sans-serif;
 	font-weight:bold;
 	font-size:18px;
-	margin-top:9x;
+	margin-top:17x;
 }
-.breaking{
+.splash{
 	text-align:center;
+}
+a:link {
+    color:#000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:#000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:#000000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color:#000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+.date{
+	float:left;
+	margin-left: 20px;
+	font-family: "Franklin Gothic Bold", sans-serif;
+	font-size: 18px;
+	margin-top: 32px;
+	font-weight: lighter;
+	color: gray;
+
+}
+.type{
+	margin-left: 20px;
+	margin-top: 28px;
+	float:left;
+	font-style: italic;
+	font-family: "Franklin Gothic Bold", sans-serif;
+	font-size: 24px;
+
+}
+
+.title1{
+	font-family: "Franklin Gothic Bold", sans-serif;
+	font-size: 68px;
+	font-weight: bolder;
+}
+.title{
+	margin-top: 20px;
+	float:left;
+	margin-left: -420px;
+}
+.author{
+	font-family: "Franklin Gothic Bold", sans-serif;
+	font-size: 18px;
+	color:gray;
+	margin-top: -30px;
+}
+.rightadvert{
+	float:left;
+	width:8%;
+	margin-top: -300px;
+}
+.mainStories{
+	margin-top: 90px;
+}
+.story1{
+	width:806.4px;
+	text-align: justify;
+}
+.footertext{
+	font-size:24px;
+	margin-top: 100px;
+}
+.morelike{
+	font-size:18px;
+}
+
+.morelike2{
+	font-size:18px;
+}
+.morephotos1{
+	float: left;
+	width:25%;
+}
+.morephotos2{
+	float: left;
+	width: 25%;
+	margin-left: 20px;
+}
+.morephotos3{
+	float: left;
+	width: 25%;
+	margin-left: 20px;
+}
+.title2{
+	margin-top: 20px;
+	margin-left:-50%;
+
+}
+textarea{
+	width:400px;
+	height:100px;
+	resize:none;
+}
+.rating{
+	font-family: "Franklin Gothic Bold", sans-serif;
+	font-size: 24px;
+}
+.sil-widget-star-ratingsil-widget{
+	margin-left: 500px;
+}
+.gay{
+	margin-left: 25%;
+}
+.title3{
+	margin-top: 20px;
+	float:left;
+	margin-left: -377px;
 }
