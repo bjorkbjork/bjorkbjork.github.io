@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-<title>Harry Strikes Terror</title>
+<title>Harry Strikes Terror!s</title>
 <link href="styles3.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
     <link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="196x196" href="favicon-192.png">
     <link rel="icon" type="image/png" sizes="160x160" href="favicon-160.png">
@@ -33,16 +33,17 @@ function playAnimation()
     document.getElementById('animation').src = "squeezy-cheesy2.gif";
     
 }
-function stopAnimation()
+function showStatic()
 {
     document.getElementById('animation').src = "squeezy-cheesy.png"
 }
 </script>
 
 <div class="Container">
+
     <div class= "banner">
         <a href="index.html">   
-            <img src="IST WEBSITE BANNER.png" width="1500" height="292.95" alt="Our banner"/>
+            <img src="IST WEBSITE BANNER.png" width="70%" height="70%" alt="Our banner"/>
         </a>
     </div>
     
@@ -67,19 +68,19 @@ function stopAnimation()
                 <img class="sticky" src="mediabuttons.png" width="auto" height="auto">
             </div>
 
-            <div class="classification">
+            
+            <div class="title">
+                <div class="classification">
 
-                <h1 class="type">T E C H</h1> <h1 class="date">29/06/2018 8:00 PM AEST | </h1>
+                    <h1 class="type">T E C H</h1> <h1 class="date">29/06/2018 8:00 PM AEST | </h1>
 
-            </div>
-
-            <div class="title2">
+                </div>
 
                 <h1 class="title1"><br>Harry Terrorises the School<br>Computers!</h1>
 
                 <h1 class="author">By Francois van Kempen</h1>
 
-                <img src="harryterror.jpg" width="806.4" height="604.8" alt="Zev being punched with a straight face"></div>
+                <img src="harryterror.jpg" width="806.4" height="604.8" alt="Scott after inhaling green ink"></div>
             </div>
             
             <div class="story">
@@ -99,15 +100,15 @@ Aenean eget congue nulla. Praesent ut interdum eros. Vivamus non consequat eros.
                         <div class="more1">
                             
                             <div class="morephotos1">
-                                <a href="firststory.html">
-                                    <img class="morelike1" src="scottTHEthot.jpg" width="100%" height="100%" alt="Scott after inhaling green ink">
-                                    <h1 class="morelike">Scott Inhales Green Ink!</h1>
+                                <a href="center1.html">
+                                    <img class="morelike1" src="zevimmune.jpg" width="100%" height="100%" alt="Zev being punched with a straight face">
+                                    <h1 class="morelike">Zev Immune to Pain?!</h1>
                                 </a>
                             </div>
                             <div class="morephotos2">
-                                <a href="center1.html">
-                                    <img  class="morelike1" src="zevimmune.jpg" width="100%" height="100%" alt="Zev being punched with a straight face">
-                                    <h1 class="morelike">Zev Immune to Pain?!</h1>
+                                <a href="firststory.html">
+                                    <img  class="morelike1" src="scottTHEthot.jpg" width="100%" height="100%" alt="Scott after inhaling green ink.">
+                                    <h1 class="morelike">Scott Inhales Green Ink!</h1>
                                 </a>
                             </div>
                             <div class="morephotos3">
@@ -130,9 +131,9 @@ Aenean eget congue nulla. Praesent ut interdum eros. Vivamus non consequat eros.
 
             <div class="RightAdvert">
                 <a href="https://en.wikipedia.org/wiki/Easy_Cheese" target="_blank">
-                    <img id="animation" class="advertisment" src="squeezy-cheesy.png" width="160" height="600" alt="Squeezy Cheesy advertisment" onMouseOver="playAnimation()" onmouseout="stopAnimation()">
+                    <img id="animation" class="advertisment" src="squeezy-cheesy.png" width="160" height="600" alt="Squeezy Cheesy advertisment" onMouseOver="playAnimation()" onmouseout="showStatic()">
                 </a>
             </div>
-        </div>
-
+  </div>
+    </div>
 </html>

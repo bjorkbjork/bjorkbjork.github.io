@@ -75,9 +75,6 @@
 	width:60%;
 	font-family: "Franklin Gothic Bold", sans-serif;
 	font-size:20px;
-	margin-left: 16%;
-
-
 }
 .fill{
 	float: left;
@@ -90,8 +87,8 @@
 	width:15%;
 	margin-top: 100px;
 	position: sticky;
-    	top: 80px;
-
+	top: 80px;
+	height: 2788.88px;
 }
 
 .CenterStories{
@@ -144,13 +141,11 @@ a:active {
 
 }
 .type{
-	margin-left: 20px;
 	margin-top: 28px;
 	float:left;
 	font-style: italic;
 	font-family: "Franklin Gothic Bold", sans-serif;
 	font-size: 24px;
-
 }
 
 .title1{
@@ -159,9 +154,8 @@ a:active {
 	font-weight: bolder;
 }
 .title{
-	margin-top: 20px;
 	float:left;
-	margin-left: -420px;
+	margin-top: -60px;
 }
 .author{
 	font-family: "Franklin Gothic Bold", sans-serif;
@@ -230,4 +224,12 @@ textarea{
 	margin-top: 20px;
 	float:left;
 	margin-left: -377px;
+}
+.story2{
+	width:806.4px;
+	text-align: justify;
+	margin-left:;
+}
+.classification{
+	margin-top:99px;
 }
